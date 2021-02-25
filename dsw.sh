@@ -53,7 +53,7 @@ dsw_menu() # $1 == path of src text file; $2 == $dsex (see dsw_page) -- prints o
 		do
 			echo "<a href=\"/${name}index.html\">${name}</a>" # no -> normal
 		done
-		echo '<a class=\"menunow\" href="/index.html">home</a>' # we are in root dir
+		echo '<a class="menunow" href="/index.html">home</a>' # we are in root dir
 	else
 		for name in $2
 		do
